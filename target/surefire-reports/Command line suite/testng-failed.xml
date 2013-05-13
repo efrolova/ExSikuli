@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="true">
+    <classes>
+      <class name="SearchAndPlayTest">
+        <methods>
+          <include name="openVNC"/>
+        </methods>
+      </class>
+      <class name="LoginTest">
+        <methods>
+          <include name="SignUpWithoutImage"/>
+          <include name="RunPictoPop"/>
+          <include name="SignIn"/>
+          <include name="SetImageOnWelcomePage"/>
+          <include name="openVNC"/>
+          <include name="SignUpWithImage"/>
+          <include name="SignUpNegName"/>
+          <include name="SignUpExName"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

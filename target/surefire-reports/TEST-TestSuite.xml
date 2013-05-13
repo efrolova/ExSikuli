@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="6" time="146.284" errors="0" skipped="0" tests="8" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7536"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\efrolova\ExSikuli"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\efrolova\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.0.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\bin\..\.\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Apache Software Foundation\apache-maven-3.0.5\bin;C:\Program Files (x86)\Sikuli X\libs; JAVA_HOME\bin;JAVA_HOME1\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.0.5\bin;c:\program files (x86)\jetbrains\intellij idea community edition 12.0.2\jre\jre\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\efrolova"/>
+    <property name="user.timezone" value="Asia/Novosibirsk"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\bin"/>
+    <property name="user.name" value="efrolova"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.0.5\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --no-plugin-registry --fail-fast --strict-checksums --update-snapshots test"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="63.203" classname="LoginTest" name="RunPictoPop"/>
+  <testcase time="15.681" classname="LoginTest" name="SetImageOnWelcomePage">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SetImageOnWelcomePage(LoginTest.java:109)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(2636)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1312,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1239,1028)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="13.234" classname="LoginTest" name="SignIn">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SignIn(LoginTest.java:69)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(4036)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1311,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1240,1028)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="13.268" classname="LoginTest" name="SignUpExName">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SignUpExName(LoginTest.java:96)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(4356)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1312,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1240,1028)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="13.341" classname="LoginTest" name="SignUpNegName">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SignUpNegName(LoginTest.java:82)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(5348)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1312,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1379,1066)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="13.368" classname="LoginTest" name="SignUpWithImage">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SignUpWithImage(LoginTest.java:55)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(4824)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1312,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1379,1066)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="13.653" classname="LoginTest" name="SignUpWithoutImage">
+    <failure message="can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen." type="FindFailed">FindFailed: can not find Pattern(&quot;C:\Users\efrolova\ExSikuli\src\main\resources\VNC\logonUser.png&quot;).similar(0.7) on the screen.
+Line ?, in File ?
+	at org.sikuli.script.Region.handleFindFailed(Region.java:420)
+	at org.sikuli.script.Region.wait(Region.java:511)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at automation.LoginScreen.LoginInVnc(LoginScreen.java:78)
+	at LoginTest.ValidLoginInVNC_BaseTest(LoginTest.java:24)
+	at LoginTest.SignUpWithoutImage(LoginTest.java:40)
+</failure>
+    <system-out>[log] App.open &quot;C:\Program Files (x86)\uvnc bvba\UltraVNC\vncviewer.exe&quot;(5192)
+[log] CLICK on (1105,419)
+[log] CLICK on (1019,519)
+[log] TYPE &quot;icubesoft&quot;
+[log] CLICK on (984,558)
+[log] CLICK on (1312,583)
+[log] CLICK on (1379,1066)
+[log] CLICK on (1379,1066)
+[log] TYPE &quot;user3&quot;
+</system-out>
+  </testcase>
+  <testcase time="0" classname="SearchAndPlayTest" name="searchAndPlayTest"/>
+</testsuite>
